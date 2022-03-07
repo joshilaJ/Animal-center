@@ -1,0 +1,19 @@
+{
+  "info": [
+    {"name":"Animal Medical Centre (AMC)" ,
+      "address":"kathmandu , behind chuchepati petrol pump",
+      "phone":"01-4480625"
+    },
+  { 
+  "name":"Mahanagar Animal Research Center and pet shop", 
+  "address":"Panipokhari",
+  "phone":"01-4480625"
+  },
+  {
+    "name":" Animal Research Center and pet shop", 
+  "address":"pokhara",
+  "phone":"01-4480625"
+  }
+  ]
+  
+}

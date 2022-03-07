@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+/* * {
+  box-sizing: border-box;
+} */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  appearance: none;
+  background-color:pink;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Montserrat, serif;
+  font-size: 0.6rem;
+  line-height: 1;
+  padding: 0.7rem;
+}
+input{
+  cursor: pointer;
+  display: inline-block;
+  font-family: Montserrat, serif;
+  font-size: 0.5rem;
+  line-height: 1;
+  padding: 0.99rem;
+}
+input:focus{
+  background-color: antiquewhite;
+}
+button:focus {
+  outline: black auto 1px;
+}
+.card{
+margin-top: 4rem;
+padding: 3rem;
+  background-color: rgb(238, 207, 238);
+  border-radius: 1rem;
+  box-shadow: 1rem,red;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.item{
+  flex: 6; 
+
+}
+img{
+  width: fit-content;
+}
+a:link {
+  color: green;
+  /* background-color: transparent; */
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  /* background-color: transparent; */
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  /* background-color: transparent; */
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  /* background-color: transparent; */
+  text-decoration: underline;
+}
+footer{
+  background-color: black;
+  color: black;
+}
+.invalid input{
+  border-color: #df8080;
+  background-color:beige
+}

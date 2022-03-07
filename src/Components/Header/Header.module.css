@@ -1,0 +1,31 @@
+
+nav{
+    padding: 1rem;
+
+}
+nav a{
+    padding:1rem;
+
+}
+.sticky {
+    position: sticky;
+    top: 0;
+  }
+
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item{
+    flex: grow 3; 
+}
+.textSize{
+    text-shadow: yellow;
+}
+a{
+    font-size: 19px;
+    font-weight: bold;
+    
+}
